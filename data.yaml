@@ -1,0 +1,13 @@
+train: C:\Users\moham\Downloads\COD MW Warzone.v1i.yolov8\train\images
+val: C:\Users\moham\Downloads\COD MW Warzone.v1i.yolov8\valid\images
+test: C:\Users\moham\Downloads\COD MW Warzone.v1i.yolov8\test\images
+
+nc: 4
+names: ['0', '1', 'enemy', 'head']
+
+roboflow:
+  workspace: enemydetectionwarzone
+  project: cod-mw-warzone-7vnnf
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/enemydetectionwarzone/cod-mw-warzone-7vnnf/dataset/1
